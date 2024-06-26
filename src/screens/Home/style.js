@@ -1,0 +1,82 @@
+import { StyleSheet } from 'react-native'
+
+const styles = StyleSheet.create({
+    top:{
+        width:'100%',
+        height:237,
+        backgroundColor:'#6c63ff',
+        alignItems:'center'
+    },profile:{
+        width:'90%',
+        height:213,
+        backgroundColor:'#fff',
+        marginTop:45,
+        borderRadius:20,
+        elevation:10,
+        alignItems:'center'
+    },topIcons:{
+        marginTop:50,
+        width:'100%',
+        justifyContent:'space-between',
+        flexDirection:'row',
+        paddingHorizontal:20,
+    },pick:{
+        marginTop:-40,
+        width:111,
+        height:111,
+        borderRadius:90,
+        borderWidth:4,
+        borderColor:'#fff',
+        backgroundColor:'#A4A4A4'
+    },
+    info:{
+        width:'100%',
+        alignItems:'center'
+    },
+    nome:{
+        marginTop:20,
+        fontSize:16,
+        color:'#6c63ff'
+    },
+    textInfo:{
+        color:'#909090',
+        fontSize:14,
+        marginBottom:5,
+    },
+    more:{
+        marginTop:-45,
+        marginLeft:250
+    },
+    middle:{
+        width:'100%',
+        marginTop:110,
+        height:290,
+        flexDirection:'column',
+    
+    },elements:{
+        flexDirection:'row',
+        justifyContent:'space-around',
+        paddingHorizontal:10,
+        paddingVertical:10,
+    },
+    buttons:{
+        width:139,
+        height:132,
+        position:'relative',
+        backgroundColor:'#fff',
+        borderRadius:20,
+        alignItems:'center',
+        elevation:10,
+        flexDirection:'column'
+    },
+    texto:{
+        fontSize:14,
+        marginTop:10,
+    },
+    imagensButton:{
+        width:122,
+        height:91,
+    }
+})
+
+export default styles
